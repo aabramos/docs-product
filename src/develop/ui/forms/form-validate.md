@@ -13,10 +13,11 @@ For example, if your users need to enter their emails in the field, and they ent
 
 The client-side validation improves the user experience because it's quick feedback about information users enter in the form. However, **you should always check the data that comes from the client side before you save that data to the database**.
 
+## Client-side validation
 
 <div class="info" markdown="1">
 
-Most of this document applies to Reactive Web App and Mobile App. For Traditional Web App, see [Validation in Traditional Web](#validation-in-traditional-web).
+Most of this document applies to Reactive Web App and Mobile App. For Traditional Web App, see [Server-side validation](#server-side-validation).
 
 </div>
 
@@ -182,11 +183,11 @@ Here is the custom validation message in the app running in a browser, with a cu
 ![Custom validation message while the app is running](images/form-custom-validation-browser.png)
 
 
-## Validation in Traditional Web
+## Server-side validation
 
 <div class="info" markdown="1">
 
-This section applies to the Traditional Web Apps, where validation runs on the server side.
+This section applies to the Traditional Web Apps, where validation runs on the server side. This can also be implemented as an additional validation of Reactive Web App and Mobile App.
 
 </div>
 
