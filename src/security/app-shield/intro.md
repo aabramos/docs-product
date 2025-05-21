@@ -329,10 +329,11 @@ In the **Android and/or iOS section** of the [Extensibility Configurations JSON]
 }
 ```
 
-After these changes steps, generate a new build of your mobile app.
+After these steps, generate a new build of your mobile app.
 
 ## Limitations { #limitations }
 
 **AppShield** has the following limitations:
 
 * After MABS creates a build with the **AppShield** plugin active and signs the build, you can't sign that build again manually because the app would recognize that as a sign of tampering.
+* AppShield isn't designed to work with other runtime anti-tampering tools, like [Google Play's App Integrity Protection](https://support.google.com/googleplay/android-developer/answer/10183279?hl=en#zippy=%2Ctake-care-when-mixing-anti-tamper-protection-solutions). Using them simultaneously can cause issues.
